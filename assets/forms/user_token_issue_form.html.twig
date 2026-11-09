@@ -1,0 +1,8 @@
+{%- extends '@WexampleSymfonyLoaderBundle/bases/form.html.twig' -%}
+
+{#- What the token is for, then the day it stops working, if any. -#}
+{% block form_body %}
+    {{ form_row(form.label) }}
+    {{ form_row(form.expiration) }}
+    {{ form_actions(form) }}
+{% endblock %}

@@ -1,0 +1,735 @@
+en:
+  page_title: 'API tokens'
+  page_icon: ph:bold/key
+  tab: 'API tokens'
+  secret:
+    title: 'Token created'
+    intro: 'Copy it now: it will not be shown again.'
+  list:
+    title: 'Your tokens'
+    empty: 'No token yet.'
+  column:
+    label: 'Label'
+    hint: 'Token'
+    created: 'Created'
+    last_used: 'Last used'
+    expiration: 'Expires'
+    state: 'State'
+  value:
+    never: 'Never'
+    none: 'Never'
+  state:
+    active: 'Active'
+    revoked: 'Revoked'
+    expired: 'Expired'
+  action:
+    revoke: 'Revoke'
+  revoke:
+    confirm: 'Clients using this token will be refused from now on.'
+    done: 'Token revoked.'
+  issue:
+    title: 'New token'
+
+fr:
+  page_title: 'Tokens API'
+  page_icon: ph:bold/key
+  tab: 'Tokens API'
+  secret:
+    title: 'Token créé'
+    intro: 'Copiez-le maintenant : il ne sera plus affiché.'
+  list:
+    title: 'Vos tokens'
+    empty: 'Aucun token pour l''instant.'
+  column:
+    label: 'Libellé'
+    hint: 'Token'
+    created: 'Créé'
+    last_used: 'Dernière utilisation'
+    expiration: 'Expire'
+    state: 'État'
+  value:
+    never: 'Jamais'
+    none: 'Jamais'
+  state:
+    active: 'Actif'
+    revoked: 'Révoqué'
+    expired: 'Expiré'
+  action:
+    revoke: 'Révoquer'
+  revoke:
+    confirm: 'Les clients qui utilisent ce token seront refusés dès maintenant.'
+    done: 'Token révoqué.'
+  issue:
+    title: 'Nouveau token'
+
+zh:
+  page_title: 'API 令牌'
+  page_icon: ph:bold/key
+  tab: 'API 令牌'
+  secret:
+    title: '令牌已创建'
+    intro: '请立即复制：它将不会再次显示。'
+  list:
+    title: '您的令牌'
+    empty: '暂无令牌。'
+  column:
+    label: '标签'
+    hint: '令牌'
+    created: '创建时间'
+    last_used: '最近使用'
+    expiration: '过期'
+    state: '状态'
+  value:
+    never: '从未'
+    none: '从不'
+  state:
+    active: '有效'
+    revoked: '已撤销'
+    expired: '已过期'
+  action:
+    revoke: '撤销'
+  revoke:
+    confirm: '使用此令牌的客户端将从现在起被拒绝。'
+    done: '令牌已撤销。'
+  issue:
+    title: '新令牌'
+
+ar:
+  page_title: 'رموز API'
+  page_icon: ph:bold/key
+  tab: 'رموز API'
+  secret:
+    title: 'تم إنشاء الرمز'
+    intro: 'انسخه الآن: لن يُعرض مرة أخرى.'
+  list:
+    title: 'رموزك'
+    empty: 'لا يوجد رمز بعد.'
+  column:
+    label: 'التسمية'
+    hint: 'الرمز'
+    created: 'أُنشئ'
+    last_used: 'آخر استخدام'
+    expiration: 'ينتهي'
+    state: 'الحالة'
+  value:
+    never: 'أبدًا'
+    none: 'أبدًا'
+  state:
+    active: 'نشط'
+    revoked: 'مُلغى'
+    expired: 'منتهي'
+  action:
+    revoke: 'إلغاء'
+  revoke:
+    confirm: 'سيُرفض العملاء الذين يستخدمون هذا الرمز من الآن.'
+    done: 'تم إلغاء الرمز.'
+  issue:
+    title: 'رمز جديد'
+
+hi:
+  page_title: 'API टोकन'
+  page_icon: ph:bold/key
+  tab: 'API टोकन'
+  secret:
+    title: 'टोकन बनाया गया'
+    intro: 'इसे अभी कॉपी करें: यह दोबारा नहीं दिखाया जाएगा।'
+  list:
+    title: 'आपके टोकन'
+    empty: 'अभी कोई टोकन नहीं।'
+  column:
+    label: 'लेबल'
+    hint: 'टोकन'
+    created: 'बनाया गया'
+    last_used: 'अंतिम उपयोग'
+    expiration: 'समाप्ति'
+    state: 'स्थिति'
+  value:
+    never: 'कभी नहीं'
+    none: 'कभी नहीं'
+  state:
+    active: 'सक्रिय'
+    revoked: 'रद्द'
+    expired: 'समाप्त'
+  action:
+    revoke: 'रद्द करें'
+  revoke:
+    confirm: 'इस टोकन का उपयोग करने वाले क्लाइंट अब से अस्वीकार किए जाएंगे।'
+    done: 'टोकन रद्द किया गया।'
+  issue:
+    title: 'नया टोकन'
+
+he:
+  page_title: 'אסימוני API'
+  page_icon: ph:bold/key
+  tab: 'אסימוני API'
+  secret:
+    title: 'האסימון נוצר'
+    intro: 'העתק אותו עכשיו: הוא לא יוצג שוב.'
+  list:
+    title: 'האסימונים שלך'
+    empty: 'אין עדיין אסימון.'
+  column:
+    label: 'תווית'
+    hint: 'אסימון'
+    created: 'נוצר'
+    last_used: 'שימוש אחרון'
+    expiration: 'תפוגה'
+    state: 'מצב'
+  value:
+    never: 'אף פעם'
+    none: 'אף פעם'
+  state:
+    active: 'פעיל'
+    revoked: 'בוטל'
+    expired: 'פג תוקף'
+  action:
+    revoke: 'בטל'
+  revoke:
+    confirm: 'לקוחות המשתמשים באסימון זה יידחו מעכשיו.'
+    done: 'האסימון בוטל.'
+  issue:
+    title: 'אסימון חדש'
+
+fa:
+  page_title: 'توکن‌های API'
+  page_icon: ph:bold/key
+  tab: 'توکن‌های API'
+  secret:
+    title: 'توکن ایجاد شد'
+    intro: 'همین حالا آن را کپی کنید: دیگر نمایش داده نمی‌شود.'
+  list:
+    title: 'توکن‌های شما'
+    empty: 'هنوز توکنی وجود ندارد.'
+  column:
+    label: 'برچسب'
+    hint: 'توکن'
+    created: 'ایجاد'
+    last_used: 'آخرین استفاده'
+    expiration: 'انقضا'
+    state: 'وضعیت'
+  value:
+    never: 'هرگز'
+    none: 'هرگز'
+  state:
+    active: 'فعال'
+    revoked: 'لغو شده'
+    expired: 'منقضی'
+  action:
+    revoke: 'لغو'
+  revoke:
+    confirm: 'کلاینت‌هایی که از این توکن استفاده می‌کنند از این پس رد می‌شوند.'
+    done: 'توکن لغو شد.'
+  issue:
+    title: 'توکن جدید'
+
+ur:
+  page_title: 'API ٹوکن'
+  page_icon: ph:bold/key
+  tab: 'API ٹوکن'
+  secret:
+    title: 'ٹوکن بن گیا'
+    intro: 'اسے ابھی کاپی کریں: یہ دوبارہ نہیں دکھایا جائے گا۔'
+  list:
+    title: 'آپ کے ٹوکن'
+    empty: 'ابھی کوئی ٹوکن نہیں۔'
+  column:
+    label: 'لیبل'
+    hint: 'ٹوکن'
+    created: 'بنایا گیا'
+    last_used: 'آخری استعمال'
+    expiration: 'میعاد'
+    state: 'حالت'
+  value:
+    never: 'کبھی نہیں'
+    none: 'کبھی نہیں'
+  state:
+    active: 'فعال'
+    revoked: 'منسوخ'
+    expired: 'میعاد ختم'
+  action:
+    revoke: 'منسوخ کریں'
+  revoke:
+    confirm: 'اس ٹوکن کو استعمال کرنے والے کلائنٹس اب سے مسترد ہوں گے۔'
+    done: 'ٹوکن منسوخ ہو گیا۔'
+  issue:
+    title: 'نیا ٹوکن'
+
+ja:
+  page_title: 'APIトークン'
+  page_icon: ph:bold/key
+  tab: 'APIトークン'
+  secret:
+    title: 'トークンを作成しました'
+    intro: '今すぐコピーしてください：再表示されません。'
+  list:
+    title: 'あなたのトークン'
+    empty: 'トークンはまだありません。'
+  column:
+    label: 'ラベル'
+    hint: 'トークン'
+    created: '作成日'
+    last_used: '最終使用'
+    expiration: '有効期限'
+    state: '状態'
+  value:
+    never: 'なし'
+    none: 'なし'
+  state:
+    active: '有効'
+    revoked: '取り消し済み'
+    expired: '期限切れ'
+  action:
+    revoke: '取り消す'
+  revoke:
+    confirm: 'このトークンを使うクライアントは今後拒否されます。'
+    done: 'トークンを取り消しました。'
+  issue:
+    title: '新しいトークン'
+
+ko:
+  page_title: 'API 토큰'
+  page_icon: ph:bold/key
+  tab: 'API 토큰'
+  secret:
+    title: '토큰이 생성되었습니다'
+    intro: '지금 복사하세요: 다시 표시되지 않습니다.'
+  list:
+    title: '내 토큰'
+    empty: '아직 토큰이 없습니다.'
+  column:
+    label: '레이블'
+    hint: '토큰'
+    created: '생성일'
+    last_used: '마지막 사용'
+    expiration: '만료'
+    state: '상태'
+  value:
+    never: '없음'
+    none: '없음'
+  state:
+    active: '활성'
+    revoked: '취소됨'
+    expired: '만료됨'
+  action:
+    revoke: '취소'
+  revoke:
+    confirm: '이 토큰을 사용하는 클라이언트는 지금부터 거부됩니다.'
+    done: '토큰이 취소되었습니다.'
+  issue:
+    title: '새 토큰'
+
+bn:
+  page_title: 'API টোকেন'
+  page_icon: ph:bold/key
+  tab: 'API টোকেন'
+  secret:
+    title: 'টোকেন তৈরি হয়েছে'
+    intro: 'এখনই কপি করুন: এটি আর দেখানো হবে না।'
+  list:
+    title: 'আপনার টোকেন'
+    empty: 'এখনও কোনো টোকেন নেই।'
+  column:
+    label: 'লেবেল'
+    hint: 'টোকেন'
+    created: 'তৈরি'
+    last_used: 'শেষ ব্যবহার'
+    expiration: 'মেয়াদ'
+    state: 'অবস্থা'
+  value:
+    never: 'কখনো না'
+    none: 'কখনো না'
+  state:
+    active: 'সক্রিয়'
+    revoked: 'বাতিল'
+    expired: 'মেয়াদোত্তীর্ণ'
+  action:
+    revoke: 'বাতিল করুন'
+  revoke:
+    confirm: 'এই টোকেন ব্যবহারকারী ক্লায়েন্টদের এখন থেকে প্রত্যাখ্যান করা হবে।'
+    done: 'টোকেন বাতিল হয়েছে।'
+  issue:
+    title: 'নতুন টোকেন'
+
+th:
+  page_title: 'โทเค็น API'
+  page_icon: ph:bold/key
+  tab: 'โทเค็น API'
+  secret:
+    title: 'สร้างโทเค็นแล้ว'
+    intro: 'คัดลอกตอนนี้: จะไม่แสดงอีก'
+  list:
+    title: 'โทเค็นของคุณ'
+    empty: 'ยังไม่มีโทเค็น'
+  column:
+    label: 'ป้ายกำกับ'
+    hint: 'โทเค็น'
+    created: 'สร้างเมื่อ'
+    last_used: 'ใช้ล่าสุด'
+    expiration: 'หมดอายุ'
+    state: 'สถานะ'
+  value:
+    never: 'ไม่เคย'
+    none: 'ไม่มี'
+  state:
+    active: 'ใช้งานอยู่'
+    revoked: 'เพิกถอนแล้ว'
+    expired: 'หมดอายุ'
+  action:
+    revoke: 'เพิกถอน'
+  revoke:
+    confirm: 'ไคลเอนต์ที่ใช้โทเค็นนี้จะถูกปฏิเสธตั้งแต่นี้'
+    done: 'เพิกถอนโทเค็นแล้ว'
+  issue:
+    title: 'โทเค็นใหม่'
+
+de:
+  page_title: 'API-Tokens'
+  page_icon: ph:bold/key
+  tab: 'API-Tokens'
+  secret:
+    title: 'Token erstellt'
+    intro: 'Kopiere es jetzt: Es wird nicht noch einmal angezeigt.'
+  list:
+    title: 'Deine Tokens'
+    empty: 'Noch kein Token.'
+  column:
+    label: 'Bezeichnung'
+    hint: 'Token'
+    created: 'Erstellt'
+    last_used: 'Zuletzt verwendet'
+    expiration: 'Läuft ab'
+    state: 'Status'
+  value:
+    never: 'Nie'
+    none: 'Nie'
+  state:
+    active: 'Aktiv'
+    revoked: 'Widerrufen'
+    expired: 'Abgelaufen'
+  action:
+    revoke: 'Widerrufen'
+  revoke:
+    confirm: 'Clients mit diesem Token werden ab sofort abgewiesen.'
+    done: 'Token widerrufen.'
+  issue:
+    title: 'Neues Token'
+
+fi:
+  page_title: 'API-tunnisteet'
+  page_icon: ph:bold/key
+  tab: 'API-tunnisteet'
+  secret:
+    title: 'Tunniste luotu'
+    intro: 'Kopioi se nyt: sitä ei näytetä uudelleen.'
+  list:
+    title: 'Tunnisteesi'
+    empty: 'Ei vielä tunnisteita.'
+  column:
+    label: 'Nimi'
+    hint: 'Tunniste'
+    created: 'Luotu'
+    last_used: 'Viimeksi käytetty'
+    expiration: 'Vanhenee'
+    state: 'Tila'
+  value:
+    never: 'Ei koskaan'
+    none: 'Ei koskaan'
+  state:
+    active: 'Aktiivinen'
+    revoked: 'Peruttu'
+    expired: 'Vanhentunut'
+  action:
+    revoke: 'Peru'
+  revoke:
+    confirm: 'Tätä tunnistetta käyttävät asiakkaat hylätään tästä lähtien.'
+    done: 'Tunniste peruttu.'
+  issue:
+    title: 'Uusi tunniste'
+
+ru:
+  page_title: 'API-токены'
+  page_icon: ph:bold/key
+  tab: 'API-токены'
+  secret:
+    title: 'Токен создан'
+    intro: 'Скопируйте его сейчас: он больше не будет показан.'
+  list:
+    title: 'Ваши токены'
+    empty: 'Токенов пока нет.'
+  column:
+    label: 'Название'
+    hint: 'Токен'
+    created: 'Создан'
+    last_used: 'Последнее использование'
+    expiration: 'Истекает'
+    state: 'Состояние'
+  value:
+    never: 'Никогда'
+    none: 'Никогда'
+  state:
+    active: 'Активен'
+    revoked: 'Отозван'
+    expired: 'Истёк'
+  action:
+    revoke: 'Отозвать'
+  revoke:
+    confirm: 'Клиенты с этим токеном будут отклоняться с этого момента.'
+    done: 'Токен отозван.'
+  issue:
+    title: 'Новый токен'
+
+pl:
+  page_title: 'Tokeny API'
+  page_icon: ph:bold/key
+  tab: 'Tokeny API'
+  secret:
+    title: 'Token utworzony'
+    intro: 'Skopiuj go teraz: nie zostanie pokazany ponownie.'
+  list:
+    title: 'Twoje tokeny'
+    empty: 'Brak tokenów.'
+  column:
+    label: 'Etykieta'
+    hint: 'Token'
+    created: 'Utworzono'
+    last_used: 'Ostatnie użycie'
+    expiration: 'Wygasa'
+    state: 'Stan'
+  value:
+    never: 'Nigdy'
+    none: 'Nigdy'
+  state:
+    active: 'Aktywny'
+    revoked: 'Unieważniony'
+    expired: 'Wygasł'
+  action:
+    revoke: 'Unieważnij'
+  revoke:
+    confirm: 'Klienci używający tego tokenu będą od teraz odrzucani.'
+    done: 'Token unieważniony.'
+  issue:
+    title: 'Nowy token'
+
+es:
+  page_title: 'Tokens de API'
+  page_icon: ph:bold/key
+  tab: 'Tokens de API'
+  secret:
+    title: 'Token creado'
+    intro: 'Cópialo ahora: no se volverá a mostrar.'
+  list:
+    title: 'Tus tokens'
+    empty: 'Aún no hay tokens.'
+  column:
+    label: 'Etiqueta'
+    hint: 'Token'
+    created: 'Creado'
+    last_used: 'Último uso'
+    expiration: 'Caduca'
+    state: 'Estado'
+  value:
+    never: 'Nunca'
+    none: 'Nunca'
+  state:
+    active: 'Activo'
+    revoked: 'Revocado'
+    expired: 'Caducado'
+  action:
+    revoke: 'Revocar'
+  revoke:
+    confirm: 'Los clientes que usan este token serán rechazados a partir de ahora.'
+    done: 'Token revocado.'
+  issue:
+    title: 'Nuevo token'
+
+it:
+  page_title: 'Token API'
+  page_icon: ph:bold/key
+  tab: 'Token API'
+  secret:
+    title: 'Token creato'
+    intro: 'Copialo ora: non verrà più mostrato.'
+  list:
+    title: 'I tuoi token'
+    empty: 'Ancora nessun token.'
+  column:
+    label: 'Etichetta'
+    hint: 'Token'
+    created: 'Creato'
+    last_used: 'Ultimo uso'
+    expiration: 'Scade'
+    state: 'Stato'
+  value:
+    never: 'Mai'
+    none: 'Mai'
+  state:
+    active: 'Attivo'
+    revoked: 'Revocato'
+    expired: 'Scaduto'
+  action:
+    revoke: 'Revoca'
+  revoke:
+    confirm: 'I client che usano questo token saranno rifiutati da ora in poi.'
+    done: 'Token revocato.'
+  issue:
+    title: 'Nuovo token'
+
+pt_BR:
+  page_title: 'Tokens de API'
+  page_icon: ph:bold/key
+  tab: 'Tokens de API'
+  secret:
+    title: 'Token criado'
+    intro: 'Copie agora: ele não será exibido novamente.'
+  list:
+    title: 'Seus tokens'
+    empty: 'Nenhum token ainda.'
+  column:
+    label: 'Rótulo'
+    hint: 'Token'
+    created: 'Criado'
+    last_used: 'Último uso'
+    expiration: 'Expira'
+    state: 'Estado'
+  value:
+    never: 'Nunca'
+    none: 'Nunca'
+  state:
+    active: 'Ativo'
+    revoked: 'Revogado'
+    expired: 'Expirado'
+  action:
+    revoke: 'Revogar'
+  revoke:
+    confirm: 'Os clientes que usam este token serão recusados a partir de agora.'
+    done: 'Token revogado.'
+  issue:
+    title: 'Novo token'
+
+tr:
+  page_title: 'API anahtarları'
+  page_icon: ph:bold/key
+  tab: 'API anahtarları'
+  secret:
+    title: 'Anahtar oluşturuldu'
+    intro: 'Şimdi kopyalayın: tekrar gösterilmeyecek.'
+  list:
+    title: 'Anahtarlarınız'
+    empty: 'Henüz anahtar yok.'
+  column:
+    label: 'Etiket'
+    hint: 'Anahtar'
+    created: 'Oluşturuldu'
+    last_used: 'Son kullanım'
+    expiration: 'Bitiş'
+    state: 'Durum'
+  value:
+    never: 'Hiç'
+    none: 'Yok'
+  state:
+    active: 'Etkin'
+    revoked: 'İptal edildi'
+    expired: 'Süresi doldu'
+  action:
+    revoke: 'İptal et'
+  revoke:
+    confirm: 'Bu anahtarı kullanan istemciler bundan sonra reddedilecek.'
+    done: 'Anahtar iptal edildi.'
+  issue:
+    title: 'Yeni anahtar'
+
+vi:
+  page_title: 'Token API'
+  page_icon: ph:bold/key
+  tab: 'Token API'
+  secret:
+    title: 'Đã tạo token'
+    intro: 'Hãy sao chép ngay: token sẽ không hiển thị lại.'
+  list:
+    title: 'Token của bạn'
+    empty: 'Chưa có token nào.'
+  column:
+    label: 'Nhãn'
+    hint: 'Token'
+    created: 'Tạo lúc'
+    last_used: 'Dùng lần cuối'
+    expiration: 'Hết hạn'
+    state: 'Trạng thái'
+  value:
+    never: 'Chưa bao giờ'
+    none: 'Không'
+  state:
+    active: 'Hoạt động'
+    revoked: 'Đã thu hồi'
+    expired: 'Đã hết hạn'
+  action:
+    revoke: 'Thu hồi'
+  revoke:
+    confirm: 'Các ứng dụng dùng token này sẽ bị từ chối từ bây giờ.'
+    done: 'Đã thu hồi token.'
+  issue:
+    title: 'Token mới'
+
+id:
+  page_title: 'Token API'
+  page_icon: ph:bold/key
+  tab: 'Token API'
+  secret:
+    title: 'Token dibuat'
+    intro: 'Salin sekarang: token tidak akan ditampilkan lagi.'
+  list:
+    title: 'Token Anda'
+    empty: 'Belum ada token.'
+  column:
+    label: 'Label'
+    hint: 'Token'
+    created: 'Dibuat'
+    last_used: 'Terakhir dipakai'
+    expiration: 'Kedaluwarsa'
+    state: 'Status'
+  value:
+    never: 'Tidak pernah'
+    none: 'Tidak ada'
+  state:
+    active: 'Aktif'
+    revoked: 'Dicabut'
+    expired: 'Kedaluwarsa'
+  action:
+    revoke: 'Cabut'
+  revoke:
+    confirm: 'Klien yang memakai token ini akan ditolak mulai sekarang.'
+    done: 'Token dicabut.'
+  issue:
+    title: 'Token baru'
+
+nl:
+  page_title: 'API-tokens'
+  page_icon: ph:bold/key
+  tab: 'API-tokens'
+  secret:
+    title: 'Token aangemaakt'
+    intro: 'Kopieer het nu: het wordt niet opnieuw getoond.'
+  list:
+    title: 'Je tokens'
+    empty: 'Nog geen tokens.'
+  column:
+    label: 'Label'
+    hint: 'Token'
+    created: 'Aangemaakt'
+    last_used: 'Laatst gebruikt'
+    expiration: 'Verloopt'
+    state: 'Status'
+  value:
+    never: 'Nooit'
+    none: 'Nooit'
+  state:
+    active: 'Actief'
+    revoked: 'Ingetrokken'
+    expired: 'Verlopen'
+  action:
+    revoke: 'Intrekken'
+  revoke:
+    confirm: 'Clients die dit token gebruiken worden vanaf nu geweigerd.'
+    done: 'Token ingetrokken.'
+  issue:
+    title: 'Nieuw token'

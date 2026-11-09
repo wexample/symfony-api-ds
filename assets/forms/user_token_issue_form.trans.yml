@@ -1,0 +1,321 @@
+en:
+  field:
+    label:
+      label: 'Label'
+    expiration:
+      label: 'Expires on (optional)'
+  action:
+    submit: 'Create the token'
+  error:
+    expiration_past: 'Choose a date in the future.'
+    expiration_too_far: 'This date is further than allowed.'
+  success:
+    message: 'Token created.'
+
+fr:
+  field:
+    label:
+      label: 'Libellé'
+    expiration:
+      label: 'Expire le (facultatif)'
+  action:
+    submit: 'Créer le token'
+  error:
+    expiration_past: 'Choisissez une date future.'
+    expiration_too_far: 'Cette date dépasse la durée autorisée.'
+  success:
+    message: 'Token créé.'
+
+zh:
+  field:
+    label:
+      label: '标签'
+    expiration:
+      label: '过期日期（可选）'
+  action:
+    submit: '创建令牌'
+  error:
+    expiration_past: '请选择未来的日期。'
+    expiration_too_far: '该日期超出了允许的范围。'
+  success:
+    message: '令牌已创建。'
+
+ar:
+  field:
+    label:
+      label: 'التسمية'
+    expiration:
+      label: 'ينتهي في (اختياري)'
+  action:
+    submit: 'إنشاء الرمز'
+  error:
+    expiration_past: 'اختر تاريخًا في المستقبل.'
+    expiration_too_far: 'هذا التاريخ أبعد من المسموح.'
+  success:
+    message: 'تم إنشاء الرمز.'
+
+hi:
+  field:
+    label:
+      label: 'लेबल'
+    expiration:
+      label: 'समाप्ति तिथि (वैकल्पिक)'
+  action:
+    submit: 'टोकन बनाएं'
+  error:
+    expiration_past: 'भविष्य की तारीख चुनें।'
+    expiration_too_far: 'यह तारीख अनुमति से आगे है।'
+  success:
+    message: 'टोकन बनाया गया।'
+
+he:
+  field:
+    label:
+      label: 'תווית'
+    expiration:
+      label: 'פג תוקף ב־ (אופציונלי)'
+  action:
+    submit: 'צור אסימון'
+  error:
+    expiration_past: 'בחר תאריך עתידי.'
+    expiration_too_far: 'התאריך רחוק מהמותר.'
+  success:
+    message: 'האסימון נוצר.'
+
+fa:
+  field:
+    label:
+      label: 'برچسب'
+    expiration:
+      label: 'تاریخ انقضا (اختیاری)'
+  action:
+    submit: 'ایجاد توکن'
+  error:
+    expiration_past: 'تاریخی در آینده انتخاب کنید.'
+    expiration_too_far: 'این تاریخ فراتر از حد مجاز است.'
+  success:
+    message: 'توکن ایجاد شد.'
+
+ur:
+  field:
+    label:
+      label: 'لیبل'
+    expiration:
+      label: 'میعاد کی تاریخ (اختیاری)'
+  action:
+    submit: 'ٹوکن بنائیں'
+  error:
+    expiration_past: 'مستقبل کی تاریخ منتخب کریں۔'
+    expiration_too_far: 'یہ تاریخ اجازت سے آگے ہے۔'
+  success:
+    message: 'ٹوکن بن گیا۔'
+
+ja:
+  field:
+    label:
+      label: 'ラベル'
+    expiration:
+      label: '有効期限（任意）'
+  action:
+    submit: 'トークンを作成'
+  error:
+    expiration_past: '未来の日付を選んでください。'
+    expiration_too_far: 'この日付は許可された期間を超えています。'
+  success:
+    message: 'トークンを作成しました。'
+
+ko:
+  field:
+    label:
+      label: '레이블'
+    expiration:
+      label: '만료일 (선택)'
+  action:
+    submit: '토큰 만들기'
+  error:
+    expiration_past: '미래의 날짜를 선택하세요.'
+    expiration_too_far: '허용된 기간을 넘는 날짜입니다.'
+  success:
+    message: '토큰이 생성되었습니다.'
+
+bn:
+  field:
+    label:
+      label: 'লেবেল'
+    expiration:
+      label: 'মেয়াদ শেষ (ঐচ্ছিক)'
+  action:
+    submit: 'টোকেন তৈরি করুন'
+  error:
+    expiration_past: 'ভবিষ্যতের একটি তারিখ বেছে নিন।'
+    expiration_too_far: 'এই তারিখ অনুমোদিত সীমার বাইরে।'
+  success:
+    message: 'টোকেন তৈরি হয়েছে।'
+
+th:
+  field:
+    label:
+      label: 'ป้ายกำกับ'
+    expiration:
+      label: 'หมดอายุวันที่ (ไม่บังคับ)'
+  action:
+    submit: 'สร้างโทเค็น'
+  error:
+    expiration_past: 'เลือกวันที่ในอนาคต'
+    expiration_too_far: 'วันที่นี้เกินกว่าที่อนุญาต'
+  success:
+    message: 'สร้างโทเค็นแล้ว'
+
+de:
+  field:
+    label:
+      label: 'Bezeichnung'
+    expiration:
+      label: 'Läuft ab am (optional)'
+  action:
+    submit: 'Token erstellen'
+  error:
+    expiration_past: 'Wähle ein Datum in der Zukunft.'
+    expiration_too_far: 'Dieses Datum liegt weiter als erlaubt.'
+  success:
+    message: 'Token erstellt.'
+
+fi:
+  field:
+    label:
+      label: 'Nimi'
+    expiration:
+      label: 'Vanhenee (valinnainen)'
+  action:
+    submit: 'Luo tunniste'
+  error:
+    expiration_past: 'Valitse tuleva päivämäärä.'
+    expiration_too_far: 'Päivämäärä on sallittua kauempana.'
+  success:
+    message: 'Tunniste luotu.'
+
+ru:
+  field:
+    label:
+      label: 'Название'
+    expiration:
+      label: 'Истекает (необязательно)'
+  action:
+    submit: 'Создать токен'
+  error:
+    expiration_past: 'Выберите дату в будущем.'
+    expiration_too_far: 'Эта дата дальше допустимой.'
+  success:
+    message: 'Токен создан.'
+
+pl:
+  field:
+    label:
+      label: 'Etykieta'
+    expiration:
+      label: 'Wygasa (opcjonalnie)'
+  action:
+    submit: 'Utwórz token'
+  error:
+    expiration_past: 'Wybierz przyszłą datę.'
+    expiration_too_far: 'Ta data jest dalsza niż dozwolona.'
+  success:
+    message: 'Token utworzony.'
+
+es:
+  field:
+    label:
+      label: 'Etiqueta'
+    expiration:
+      label: 'Caduca el (opcional)'
+  action:
+    submit: 'Crear el token'
+  error:
+    expiration_past: 'Elige una fecha futura.'
+    expiration_too_far: 'Esta fecha supera lo permitido.'
+  success:
+    message: 'Token creado.'
+
+it:
+  field:
+    label:
+      label: 'Etichetta'
+    expiration:
+      label: 'Scade il (facoltativo)'
+  action:
+    submit: 'Crea il token'
+  error:
+    expiration_past: 'Scegli una data futura.'
+    expiration_too_far: 'Questa data va oltre il consentito.'
+  success:
+    message: 'Token creato.'
+
+pt_BR:
+  field:
+    label:
+      label: 'Rótulo'
+    expiration:
+      label: 'Expira em (opcional)'
+  action:
+    submit: 'Criar o token'
+  error:
+    expiration_past: 'Escolha uma data futura.'
+    expiration_too_far: 'Esta data vai além do permitido.'
+  success:
+    message: 'Token criado.'
+
+tr:
+  field:
+    label:
+      label: 'Etiket'
+    expiration:
+      label: 'Bitiş tarihi (isteğe bağlı)'
+  action:
+    submit: 'Anahtar oluştur'
+  error:
+    expiration_past: 'Gelecekte bir tarih seçin.'
+    expiration_too_far: 'Bu tarih izin verilenden ileride.'
+  success:
+    message: 'Anahtar oluşturuldu.'
+
+vi:
+  field:
+    label:
+      label: 'Nhãn'
+    expiration:
+      label: 'Hết hạn vào (tùy chọn)'
+  action:
+    submit: 'Tạo token'
+  error:
+    expiration_past: 'Hãy chọn một ngày trong tương lai.'
+    expiration_too_far: 'Ngày này vượt quá mức cho phép.'
+  success:
+    message: 'Đã tạo token.'
+
+id:
+  field:
+    label:
+      label: 'Label'
+    expiration:
+      label: 'Kedaluwarsa pada (opsional)'
+  action:
+    submit: 'Buat token'
+  error:
+    expiration_past: 'Pilih tanggal di masa depan.'
+    expiration_too_far: 'Tanggal ini melebihi batas yang diizinkan.'
+  success:
+    message: 'Token dibuat.'
+
+nl:
+  field:
+    label:
+      label: 'Label'
+    expiration:
+      label: 'Verloopt op (optioneel)'
+  action:
+    submit: 'Token aanmaken'
+  error:
+    expiration_past: 'Kies een datum in de toekomst.'
+    expiration_too_far: 'Deze datum ligt verder dan toegestaan.'
+  success:
+    message: 'Token aangemaakt.'

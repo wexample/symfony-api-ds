@@ -1,0 +1,74 @@
+{%- extends '@WexampleSymfonyUserDsBundle/pages/profile/layout/profile.html.twig' -%}
+
+{#- The account's api tokens: the one just issued, its secret shown once;
+    every token, when it was last used, revoked from its row; a new one. -#}
+{%- block page_body -%}
+    {%- if secret -%}
+    <section class="block block--card block--tone-success">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/key') }}</span>
+            <span class="block--title-label">{{ '@page::secret.title' | trans }}</span>
+        </div>
+        <div class="block--body stack--vertical">
+            <p>{{ '@page::secret.intro' | trans }}</p>
+            {{ include('@WexampleSymfonyDesignSystemBundle/components/code-block/code-block.html.twig', { code: secret, copy: true }) }}
+        </div>
+    </section>
+    {%- endif -%}
+
+    {#- A table stands on the page, never in a block. -#}
+    <section class="stack--vertical">
+        <h2>{{ '@page::list.title' | trans }}</h2>
+        {%- if tokens -%}
+            {%- set rows = [] -%}
+            {%- for token in tokens -%}
+                {%- set state -%}
+                    {%- if token.dateRevoked -%}
+                        {{ marker('neutral', '@page::state.revoked' | trans, { compact: true }) }}
+                    {%- elseif not token.usable -%}
+                        {{ marker('warning', '@page::state.expired' | trans, { compact: true }) }}
+                    {%- else -%}
+                        {{ marker('success', '@page::state.active' | trans, { compact: true }) }}
+                    {%- endif -%}
+                {%- endset -%}
+                {%- set rows = rows | merge([{
+                    label: token.label ?: '—',
+                    hint: token.hint,
+                    created: date_display(token.dateCreated, 'date_time_short'),
+                    last_used: token.dateLastUsed ? date_display(token.dateLastUsed, 'date_time_short') : '@page::value.never' | trans,
+                    expiration: token.dateExpiration ? date_display(token.dateExpiration, 'date_time_short') : '@page::value.none' | trans,
+                    state: state,
+                    actions: token.usable ? [{
+                        href: path('user_api_tokens_revoke', { id: token.id }),
+                        method: 'post',
+                        token: csrf_token('submit'),
+                        icon: 'ph:bold/prohibit',
+                        label: '@page::action.revoke' | trans,
+                        confirm: { title: '@page::action.revoke' | trans, message: '@page::revoke.confirm' | trans, accept: '@page::action.revoke' | trans },
+                    }] : [],
+                }]) -%}
+            {%- endfor -%}
+            {{ data_table([
+                { key: 'label', label: '@page::column.label' | trans },
+                { key: 'hint', label: '@page::column.hint' | trans, cell: 'code' },
+                { key: 'created', label: '@page::column.created' | trans, cell: 'html' },
+                { key: 'last_used', label: '@page::column.last_used' | trans, cell: 'html' },
+                { key: 'expiration', label: '@page::column.expiration' | trans, cell: 'html' },
+                { key: 'state', label: '@page::column.state' | trans, cell: 'html' },
+                { key: 'actions', label: '', cell: 'actions', class: 'table--cell--nowrap' },
+            ], rows) }}
+        {%- else -%}
+            <p class="text-secondary">{{ '@page::list.empty' | trans }}</p>
+        {%- endif -%}
+    </section>
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/plus') }}</span>
+            <span class="block--title-label">{{ '@page::issue.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {{ form_load(render_pass, issue_form, '@WexampleSymfonyApiDsBundle/forms/user_token_issue_form.html.twig') }}
+        </div>
+    </section>
+{%- endblock -%}

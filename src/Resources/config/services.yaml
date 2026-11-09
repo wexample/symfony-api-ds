@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyApiDs\:
+        resource: '../../{Form,Service,Twig}'
+
+    Wexample\SymfonyApiDs\Controller\:
+        resource: '../../Controller/'
+        tags: ['controller.service_arguments']

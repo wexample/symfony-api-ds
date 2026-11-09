@@ -1,0 +1,9 @@
+// The account's api tokens: the secret just issued, the table of every token,
+// the card issuing a new one.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/components/marker/marker';
+@use '@wexample/symfony-design-system/components/date-display/date-display';
+@use '@wexample/symfony-design-system/components/data-table/data-table';
+@use '@wexample/symfony-design-system/components/code-block/code-block';
+@use '@wexample/symfony-design-system/components/copy-button/copy-button';
