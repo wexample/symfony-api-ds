@@ -1,0 +1,7 @@
+domain: symfony-api-ds.wex
+global:
+  name: symfony-api-ds
+  type: php-package
+  version: 1.0.0
+wex:
+  version: 6.0.183
