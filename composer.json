@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-api-ds",
   "description": "Design-system screens for symfony-api: a person's api tokens, listed with their last use, issued with their secret shown once, revoked",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -11,7 +11,7 @@
   },
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-api": ">=20.0.0",
+    "wexample/symfony-api": ">=21.0.0",
     "wexample/symfony-user-ds": ">=12.0.0",
     "wexample/symfony-design-system": ">=49.0.0",
     "wexample/symfony-helpers": ">=19.3.0",
